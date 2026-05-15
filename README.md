@@ -141,7 +141,7 @@ http://localhost:4280
 
 ### 用户密码读取
 
-![Password Extraction](screenshots/sql-injection-password-extraction.png)
+![Password Extraction](screenshots/sql_injection_password_extraction.png)
 
 ---
 
