@@ -43,17 +43,11 @@
 | 组件 | 说明 |
 
 |---|---|
-
 | 操作系统 | Windows 11 |
-
 | 容器环境 | Docker Desktop |
-
 | 漏洞靶场 | DVWA |
-
 | 数据库 | MySQL / MariaDB |
-
 | 抓包工具 | Burp Suite Community Edition |
-
 | 浏览器 | Google Chrome |
 
 
@@ -475,13 +469,9 @@ Send
 
 
 | Payload | 结果 |
-
 |---|---|
-
 | ORDER BY 1 | 正常 |
-
 | ORDER BY 2 | 正常 |
-
 | ORDER BY 3 | 报错 |
 
 
