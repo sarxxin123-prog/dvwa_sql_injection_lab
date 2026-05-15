@@ -54,7 +54,7 @@ DVWA_SQL_INJECTION_LAB/
 │   ├── burp_repeater_payload.png
 │   ├── database_information_enumeration.png
 │   ├── dvwa_setup.png
-│   ├── sql-injection-password-extraction.png
+│   ├── sql_injection_password_extraction.png
 │   └── union_select_success.png
 ```
 
